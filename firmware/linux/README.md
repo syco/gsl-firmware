@@ -19,6 +19,7 @@ simply copy the silead directory to /lib/firmware/silead:
 |----------------------------------------|--------------|
 | gsl1680-a082-q8-700.fw                 | Allwinner SoC Q8 tablets (https://linux-sunxi.org/Format_Q8) with a gsl1680 with chip-id a082, variant 0 |
 | gsl1680-a082-q8-a70.fw                 | Allwinner SoC Q8 tablets (https://linux-sunxi.org/Format_Q8) with a gsl1680 with chip-id a082, variant 1 |
+| gsl1680-archos-101-cesium-educ.fw      | Archos 101 Cesium Educ tablets |
 | gsl1680-b482-q8-d702.fw                | Allwinner SoC Q8 tablets (https://linux-sunxi.org/Format_Q8) with a gsl1680 with chip-id b482, variant 0 |
 | gsl1680-b482-q8-a70.fw                 | Allwinner SoC Q8 tablets (https://linux-sunxi.org/Format_Q8) with a gsl1680 with chip-id b482, variant 1 |
 | gsl1680-inet86dz.fw                    | Allwinner A23 7" tablets with inet86dz mainboard |
@@ -26,6 +27,7 @@ simply copy the silead directory to /lib/firmware/silead:
 | gsl3670-polaroid-mid2809pxe04.fw       | Polaroid 9" MID2809PXE04 tablets |
 | gsl3675-ga10h.fw                       | Allwinner A33 10" tablets with ga10h mainboard |
 | gsl3675-gt90h.fw                       | Allwinner A23 9" tablets with ga10h mainboard |
+| gsl1680-bush-bush-windows-tablet.fw    | BUSH Bush Windows tablets |
 | gsl1680-chuwi-hi8.fw                   | Chuwi Hi8 tablets |
 | gsl1680-chuwi-hi10-air.fw              | Chuwi Hi10 Air tablets |
 | gsl1680-chuwi-hi10-pro.fw              | Chuwi Hi10 Pro tablets |
@@ -33,6 +35,7 @@ simply copy the silead directory to /lib/firmware/silead:
 | gsl1680-chuwi-surbook-mini.fw          | Chuwi Surbook Mini tablets |
 | gsl1680-connect-tablet9.fw             | Connect Tablet9 tablets |
 | gsl1680-csl-panther-tab-hd.fw          | CSL Panther Tab HD |
+| gsl1680-dexp-ursus-kx210i.fw           | DEXP Ursus KX210i tablet |
 | gsl1680-gp-electronic-t701.fw          | GP-electronic T701 tablets |
 | gsl1680-irbis-tw118.fw                 | Irbis TW118 tablets |
 | gsl1680-mpman-converter9.fw            | MPMan Converter9 tablets |
@@ -40,6 +43,7 @@ simply copy the silead directory to /lib/firmware/silead:
 | gsl1680-onda-v820w-32g.fw              | Onda V820w Dual OS tablets |
 | gsl1680-pipo-w2s.fw                    | Pipo W2S tablets |
 | gsl1680-pipo-w11.fw                    | Pipo W11 tablets |
+| gsl1680-positivo-c4128b.fw             | Positivo C4128B convertible |
 | gsl1680-rwc-nanote-p8.fw               | RWC Nanote P8 UMPC-02-SR (convertible) |
 | gsl1680-teclast-x3-plus.fw             | Teclast X3 Plus tablets |
 | gsl1680-trekstor-primebook-c11.fw      | Trekstor Primebook C11[B] (convertible) |

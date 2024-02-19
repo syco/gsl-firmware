@@ -25,6 +25,8 @@ for copyright information.
 
 | Manufacturer  | Device                          | Tested  | Firmware                                                       |
 |---------------|---------------------------------|---------|----------------------------------------------------------------|
+| Archos        | 101 Cesium Educ                 | yes     | [firmware/archos/101_cesium_educ](firmware/archos/101_cesium_educ)|
+| BUSH          | Bush Windows tablet             | yes     | [firmware/bush/bush_windows_tablet](firmware/bush/bush_windows_tablet)|
 | Chuwi         | hi8                             | yes     | [firmware/chuwi/hi8](firmware/chuwi/hi8)                       |
 | Chuwi         | Hi8 Air                         | yes     | [firmware/chuwi/hi8_air](firmware/chuwi/hi8_air)               |
 | Chuwi         | vi8                             | no      | [firmware/chuwi/vi8](firmware/chuwi/vi8)                       |
@@ -66,24 +68,27 @@ for copyright information.
 | Voyo          | VBOOK V3Pro                     | no      | [firmware/voyo/vbook_v3pro](firmware/voyo/vbook_v3pro)         |
 | DEXP          | Ursus 7W Rev.1                  | yes     | [firmware/dexp/ursus7w-rev1](firmware/dexp/ursus7w-rev1)       |
 | DEXP          | Ursus 7W Rev.2                  | yes     | [firmware/dexp/ursus7w-rev1](firmware/dexp/ursus7w-rev2)       |
+| DEXP          | Ursus KX210i                    | yes     | [firmware/dexp/ursus-kx210i](firmware/dexp/ursus-kx210i)       |
 | Teclast       | X3 Plus                         | yes     | [firmware/teclast/x3_plus](firmware/teclast/x3_plus)           |
 | Teclast       | X5 Pro                          | yes     | [firmware/teclast/x5_pro](firmware/teclast/x5_pro)             |
 | Proworx       | MX049                           | yes     | [firmware/proworx/mx049](firmware/proworx/mx049)               |
 | Insignia      | Flex 8                          | yes     | [firmware/insignia/flex8](firmware/insignia/flex8)             |
 | Insignia      | Flex 11                         | yes     | [firmware/insignia/flex11](firmware/insignia/flex11)           |
-| iLife			| ZedBook 2			  			  | yes	    | [firmware/ilife/zedbook2](firmware/ilife/zedbook2)             |
-| IRBIS			| tw48			  			  | yes	    | [firmware/irbis/tw48/](firmware/irbis/tw48)             |
-| Myria			| MY8307			  			  | yes	    | [firmware/myria/my8307](firmware/myria/my8307)                 |
-| Schneider	    | SCT101CTM                       | yes     | [firmware/schneider/sct101ctm](firmware/schneider/sct101ctm)   |
+| iLife         | ZedBook 2                       | yes     | [firmware/ilife/zedbook2](firmware/ilife/zedbook2)             |
+| IRBIS         | tw48                            | yes     | [firmware/irbis/tw48/](firmware/irbis/tw48)                    |
+| IRBIS         | TW39                            | no      | [firmware/irbis/TW39](firmware/irbis/TW39)                     |
+| Myria         | MY8307                          | yes     | [firmware/myria/my8307](firmware/myria/my8307)                 |
+| Schneider     | SCT101CTM                       | yes     | [firmware/schneider/sct101ctm](firmware/schneider/sct101ctm)   |
 | techBite      | Arc 11.6                        | yes     | [firmware/techbite/arc_11_6](firmware/techbite/arc_11_6)       |
 | Vinga         | Twizzle J116                    | yes     | [firmware/vinga/twizzle_j116](firmware/vinga/twizzle_j116)     |
 | Multilaser    | M11W                            | yes     | [firmware/multilaser/m11w](firmware/multilaser/m11w)           |
 | RWC           | NANOTE P8                       | yes     | [firmware/rwc/nanote-p8](firmware/rwc/nanote-p8)               |
-| viglen           | connect10"                       | yes     | [firmware/vliglen/connect10](firmware/viglen/connect10)               |
-| Saphir        | WinPad 10.1 FHD                 | no      | [ firmware/saphir/winpad_10_1]( firmware/saphir/winpad_10_1)   |
-| Hykker        | Hello                           | yes     | [firmware/hykker/hello]( firmware/hykker/hello)   |
+| viglen        | connect10"                      | yes     | [firmware/vliglen/connect10](firmware/viglen/connect10)        |
+| Saphir        | WinPad 10.1 FHD                 | no      | [firmware/saphir/winpad_10_1](firmware/saphir/winpad_10_1)     |
+| Hykker        | Hello                           | yes     | [firmware/hykker/hello]( firmware/hykker/hello)                |
 | Fusion5       | FWIN232PLUS                     | yes     | [firmware/fusion5/fwin232plus](firmware/fusion5/fwin232plus)   |
 | CSL           | Panther Tab HD                  | yes     | [firmware/csl/panther-tab-hd](firmware/csl/panther-tab-hd)     |
+| Positivo      | C4128B                          | yes     | [firmware/positivo/c4128b](firmware/positivo/c4128b)           |
 
 
 ## Adding new firmware
@@ -265,7 +270,7 @@ unstable system and is not recommended.
 The [gslx680-acpi](https://github.com/onitake/gslx680-acpi) driver
 requires firmware in a special compact format.
 
-Use [firmware/fwtool](firmware/fwtool) to convert regular firmware
+Use [tools/fwtool](tools/fwtool) to convert regular firmware
 into this format. The tool will also store device parameters (such as
 such as panel width and height, tracking support, etc.) inside the firmware.
 
