@@ -76,7 +76,7 @@ for copyright information.
 | Insignia      | Flex 11                         | yes     | [firmware/insignia/flex11](firmware/insignia/flex11)           |
 | iLife         | ZedBook 2                       | yes     | [firmware/ilife/zedbook2](firmware/ilife/zedbook2)             |
 | IRBIS         | tw48                            | yes     | [firmware/irbis/tw48/](firmware/irbis/tw48)                    |
-| IRBIS         | TW39                            | no      | [firmware/irbis/TW39](firmware/irbis/TW39)                     |
+| IRBIS         | TW39                            | yes (doesn't work)     | [firmware/irbis/TW39](firmware/irbis/TW39)                     |
 | Myria         | MY8307                          | yes     | [firmware/myria/my8307](firmware/myria/my8307)                 |
 | Schneider     | SCT101CTM                       | yes     | [firmware/schneider/sct101ctm](firmware/schneider/sct101ctm)   |
 | techBite      | Arc 11.6                        | yes     | [firmware/techbite/arc_11_6](firmware/techbite/arc_11_6)       |
@@ -90,6 +90,7 @@ for copyright information.
 | Fusion5       | FWIN232PLUS                     | yes     | [firmware/fusion5/fwin232plus](firmware/fusion5/fwin232plus)   |
 | CSL           | Panther Tab HD                  | yes     | [firmware/csl/panther-tab-hd](firmware/csl/panther-tab-hd)     |
 | Positivo      | C4128B                          | yes     | [firmware/positivo/c4128b](firmware/positivo/c4128b)           |
+| Globalspace   | SoLT IVW 11.6"                  | yes     | [firmware/globalspace/solt-ivw-11.6](firmware/globalspace/solt-ivw-11.6) |
 
 
 ## Adding new firmware
